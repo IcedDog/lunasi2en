@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lunasi</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        /* dark mode */
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+        }
+
+        textarea{
+            background-color: #2e2e2e;
+            color: #d4d4d4;
+        }
+
+        select {
+            background-color: #2e2e2e;
+            color: #d4d4d4;
+        }
+
+        button {
+            background-color: #2e2e2e;
+            color: #d4d4d4;
+        }
+
+        span {
+            color: #ff791f;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 id="header">Lunasi</h1>
+    <label for="dropdown" id="dropdownLabel">言語</label>
+    <select id="dropdown">
+        <option value="ja">Japanese / 日本語</option>
+        <option value="en">English / 英語</option>
+    </select>
+    <br><br>
+    <label for="textarea" id="textareaLabel">テキストを入力してください</label>
+    <textarea id="textarea"></textarea>
+    <br><br>
+    <button onclick="submit()" id="button">確認</button>
+    <br><br>
+    <div id="log"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
