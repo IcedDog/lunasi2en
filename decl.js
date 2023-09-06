@@ -29,9 +29,9 @@ function determineDecl(word, gender){
  */
 const declensionList = {
     // nom acc dat gen inst all abl ine voc 
-    "1" : [["", "i", "s", "se", "si", "cé", "té", "sé", "a"],
-        ["s", "si", "se", "sei", "ssi", "sce", "ste", "sse", "sa"]],
-    "1S": [["", "é", "s", "se", "si", "cé", "té", "sé", "a"],
+    "1" : [["", "i", "es", "se", "si", "cé", "té", "sé", "a"],
+        ["s", "si", "sé", "sei", "ssi", "sce", "ste", "sse", "sa"]],
+    "1S": [["", "é", "és", "se", "si", "cé", "té", "sé", "a"],
         ["s", "si", "se", "sei", "ssi", "sce", "ste", "sse", "sa"]],
     "2" : [["", "im", "is", "e", "si", "cé", "eté", "esé", "a"],
         ["is", "isi", "ise", "isei", "issi", "isce", "iste", "isse", "isa"]],
